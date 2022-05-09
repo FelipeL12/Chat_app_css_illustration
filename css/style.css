@@ -1,0 +1,130 @@
+/* GLOBAL  */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    /* PRIMARY */
+    --color_pale_violet: hsl(276, 100%, 81%);
+    --color_moderate_violet: hsl(276, 55%, 52%);
+    --color_desaturated_dark_violet: hsl(271, 15%, 43%);
+    --color_grayish_blue: hsl(206, 6%, 79%);
+    --color_very_dark_desaturated_violet: hsl(271, 36%, 24%);
+    --color_dark_grayish_violet: hsl(270, 7%, 64%);
+    --color_background_magenta: hsl(293, 100%, 63%);
+    --color_background_violet: hsl(264, 100%, 61%);
+
+    /* SECONDARY */
+    --color_white: hsl(0, 0%, 100%);
+    --color_ligth_grayish_violet: hsl(270, 20%, 96%);
+    --color_very_light_magenta: hsl(289, 100%, 72%);
+
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    background-color: var(--color_ligth_grayish_violet);
+}
+
+/* CONTENT */
+
+.main_container {
+    width: 100%;
+}
+
+.phone_container_back_color {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 4rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 4rem;
+    background-color: var(--color_desaturated_dark_violet);
+}
+
+.phone_container {
+    width: 95%;
+    height: 40rem;
+    margin: 0 auto;
+    border: none;
+    border-radius: 3rem;
+    background-color: var(--color_ligth_grayish_violet);
+}
+
+
+.phone_header {
+    border: none;
+    border-top-left-radius: 2.5rem;
+    border-top-right-radius: 2.5rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-image: linear-gradient(to right, var(--color_background_violet), var(--color_background_magenta));
+}
+
+.phone_header article {
+    display: flex;
+    justify-content: center;
+}
+
+.phone_header_cam {
+    display: inline-block;
+    position: absolute;
+    width: 13rem;
+    height: 2rem;
+    padding: 0.1rem 0.1rem 0.5rem 0.1rem;
+    border: none;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    top: calc(0% + 4rem);
+    right: calc(50% - 7rem);
+    background-color: var(--color_white);
+}
+
+.profile_image {
+    display: inline-block;
+    background-image: url(../images/avatar.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 4rem;
+    height: 4rem;
+    border: solid 0.1rem var(--color_white);
+    border-radius: 5rem;
+    margin-left: 1rem;
+    margin-top: 2.5rem;
+}
+
+.phone_header h3 {
+    color: var(--color_white);
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 2rem 4rem 2rem 1rem;
+    margin-top: 1.3rem;
+}
+
+.phone_header article span {
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-top: 0.3rem;
+}
+
+.phone_header article:after {
+    display: flex;
+    color: var(--color_white);
+    content: '\2807';
+    font-size: 2rem;
+    margin-top: 3.5rem;
+    margin-left: 1rem;
+}
+
+.phone_user {}
+
+.description {}
