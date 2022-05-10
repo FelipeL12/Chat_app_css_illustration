@@ -31,7 +31,7 @@ html {
 body {
     font-size: 16px;
     font-family: 'Rubik', sans-serif;
-    background-color: var(--color_dark_grayish_violet);
+    background-color: var(--color_grayish_blue);
 }
 
 /* UTILITIES */
@@ -46,9 +46,22 @@ body {
     width: 100%;
 }
 
+.complement_color_background {
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    border: none;
+    border-bottom-right-radius: 16rem;
+    border-bottom-left-radius: 16rem;
+    top: calc(0% - 10rem);
+    left: calc(0% - 8rem);
+    background-color: var(--color_background_violet);
+}
+
 .phone_container_back_color {
     width: 80%;
     max-width: 30rem;
+    position: relative;
     margin: 0 auto;
     margin-top: 4rem;
     padding: 1rem;
@@ -61,10 +74,11 @@ body {
     width: 95%;
     height: 90%;
     max-width: 28.5rem;
+    position: relative;
     margin: 0 auto;
     border: none;
     border-radius: 3rem;
-    background-color: var(--color_desaturated_dark_violet);
+    background-color: var(--color_grayish_blue);
 }
 
 
@@ -91,7 +105,7 @@ body {
     border: none;
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
-    top: calc(0% + 4rem);
+    top: calc(0% - 1rem);
     right: calc(50% - 7rem);
     background-color: var(--color_white);
 }
@@ -180,7 +194,7 @@ body {
     border-radius: 2rem;
     border-bottom-right-radius: 0rem;
     color: var(--color_moderate_violet);
-    background-color: var(--color_grayish_blue);
+    background-color: var(--color_white);
 }
 
 .phone_payment {
@@ -234,7 +248,26 @@ body {
     display: inline-block;
     position: absolute;
     justify-content: end;
-    right: calc(22.5% - 0rem);
+    right: calc(22.5% - 3rem);
 }
 
-.description {}
+.description {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.description h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: var(--color_very_dark_desaturated_violet);
+}
+
+.description p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    color: var(--color_very_dark_desaturated_violet);
+}
