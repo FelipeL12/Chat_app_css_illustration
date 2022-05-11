@@ -32,7 +32,7 @@ This is a Chat app illustration page
 
 ### Links
 
-- Live Site URL: https://felipel12.github.io/Bata-bit/
+- Live Site URL: https://felipel12.github.io/Chat_app_css_illustration/
 
 
 ## My process
