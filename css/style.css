@@ -296,3 +296,66 @@ body {
     margin-bottom: 2rem;
     color: var(--color_very_dark_desaturated_violet);
 }
+
+/* MEDIAS */
+
+@media (min-width: 760px) {
+
+    .complement_color_background {
+        width: 70%;
+        height: 85%;
+        border-bottom-right-radius: 50rem;
+        border-bottom-left-radius: 50rem;
+        top: calc(0% - 20rem);
+        left: calc(0% - 18rem);
+    }
+}
+
+@media (min-width: 1440px) {
+
+    .main_container {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        gap: 8rem;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .complement_color_background {
+        width: 55%;
+        height: 110%;
+        position: absolute;
+        border-bottom-right-radius: 50rem;
+        border-bottom-left-radius: 50rem;
+        top: calc(0% - 20rem);
+        left: calc(0% - 26.5rem);
+    }
+
+    .phone_container_back_color {
+        width: 80%;
+        max-width: 30rem;
+        position: relative;
+        margin: 0;
+        margin-top: 12rem;
+        margin-left: 27.5%;
+        /* left: calc(50% - 52.3rem); */
+    }
+
+    .description {
+        width: 40%;
+        margin: 0;
+        text-align: start;
+    }
+
+
+    .description h2 {
+        font-size: 4rem;
+    }
+
+    .description p {
+        font-size: 2rem;
+        text-align: justify;
+        padding-right: 20rem;
+    }
+}
