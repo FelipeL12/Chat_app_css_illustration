@@ -58,6 +58,8 @@ body {
     background-color: var(--color_background_violet);
 }
 
+/* PHONE CONTAINER  */
+
 .phone_container_back_color {
     width: 80%;
     max-width: 30rem;
@@ -81,6 +83,7 @@ body {
     background-color: var(--color_grayish_blue);
 }
 
+/* PHONE CONTENT  */
 
 .phone_header {
     border: none;
@@ -275,6 +278,7 @@ body {
     color: var(--color_pale_violet);
 }
 
+/* DESCRIPTION CONTENT  */
 
 .description {
     width: 90%;
